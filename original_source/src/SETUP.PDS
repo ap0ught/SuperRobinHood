@@ -1,0 +1,11 @@
+; Assembler setup PDS loaded from the project directory before a build
+; (editor manual 9.2.8). The original binary SETUP.PDS is not in this dump.
+; ROBIN.PRJ is the project file list, not this setup.
+;
+; Assembler menu item 1, "Swap < and >" (editor manual 9.2.3).
+; The source directive for the same switch is `option 0,<value>`.
+;   0   > is the high byte, < is the low byte
+;   1   > is the low byte,  < is the high byte
+; The 6502 manual default is 1: the arrow points at the byte returned.
+; The Asia cartridge matches 1. Magician's source sets 0.
+option 0,1

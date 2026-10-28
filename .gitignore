@@ -113,3 +113,8 @@ TAGS
 tags
 .ccls-cache/
 compile_commands.json
+
+# ----------------------------------------------------------------------
+# PDS assembler build products (asm/build_srh.py)
+# ----------------------------------------------------------------------
+asm/out/
