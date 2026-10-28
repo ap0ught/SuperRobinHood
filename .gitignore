@@ -116,5 +116,8 @@ compile_commands.json
 
 # ----------------------------------------------------------------------
 # PDS assembler build products (asm/build_srh.py)
+# Ignore the directory contents, then re-include only the assembled ROM.
+# (A trailing-slash directory rule cannot be negated for a file inside it.)
 # ----------------------------------------------------------------------
-asm/out/
+asm/out/*
+!asm/out/srh-rebuilt.nes
